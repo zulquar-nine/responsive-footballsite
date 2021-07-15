@@ -55,6 +55,9 @@ body{
 
 
          }
+         .player-info {
+             text-align: center;
+         }
          .player-box:hover{
              border: 5px solid lightcoral;
 
@@ -63,4 +66,7 @@ body{
              width: 400px;
              padding: 10px;
              margin: 10px;
+         }
+         .optional-box{
+             display: flex;
          }
