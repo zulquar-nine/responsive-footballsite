@@ -25,6 +25,10 @@ body{
         margin: 20px;
         
     }
+    .login{
+        background-color: rgb(217, 255, 0);
+        text-align: right;
+    }
     .container-box img:hover{
         border: 5px solid rgb(217, 255, 0);   
     }
@@ -38,4 +42,25 @@ body{
          .text-box:hover
          {
               border: 4px solid rgba(0, 204, 255, 0.897);
+         }
+         .flex-grid {
+             display: grid;
+             grid-template-columns: repeat(3,1fr);
+             width: 1200px;
+             justify-items: center;
+         }
+         .player-profile img{
+             width: 400px;
+             height: 474px;
+
+
+         }
+         .player-box:hover{
+             border: 5px solid lightcoral;
+
+         }
+         .player-box{
+             width: 400px;
+             padding: 10px;
+             margin: 10px;
          }
