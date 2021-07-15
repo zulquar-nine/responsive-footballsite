@@ -4,7 +4,7 @@ body{
 .players{
      
    
-   background-color: rgb(0, 132, 255);
+   background-color: rgb(180, 171, 87);
    margin:100px ;
    
 
@@ -16,9 +16,9 @@ body{
    width: 100%;
    margin: 100px;
    
-    
-   
-    
+    }
+    .live{
+        background-color: rgba(188, 221, 42, 0.952);
     }
     .container-box img{
         width: 100%;
