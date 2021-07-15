@@ -68,4 +68,20 @@ body{
             
              margin: 10px;
          }
-        
+        /* ////---last-box---/// */
+        .container-box2{
+            display: flex;
+            display: grid;
+            grid-template-columns: repeat(1fr,1fr);
+        }
+        .highlight{
+            width: 200px;
+            border:
+        }
+        .player-old img{
+            width: 300px;
+
+        }
+        .center{
+            align-items: center;
+        }
