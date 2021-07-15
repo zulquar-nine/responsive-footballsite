@@ -29,14 +29,14 @@ body{
         background-color: rgb(217, 255, 0);
         text-align: right;
     }
-    .container-box img:hover{
+    .player-box img:hover{
         border: 5px solid rgb(217, 255, 0);   
     }
     .text-box{
         margin-top: 2px;
         width: 50%;
         color: white;
-        font-size: 54px;
+        font-size: 30px;
     }
        
          .text-box:hover
@@ -46,27 +46,26 @@ body{
          .flex-grid {
              display: grid;
              grid-template-columns: repeat(3,1fr);
-             width: 1200px;
+             width: 800px;
+             
              justify-items: center;
          }
          .player-profile img{
-             width: 400px;
-             height: 474px;
+             width: 300px;
+             height: 250px;
 
 
          }
          .player-info {
              text-align: center;
          }
-         .player-box:hover{
+         .player-b:hover{
              border: 5px solid lightcoral;
 
          }
-         .player-box{
-             width: 400px;
-             padding: 10px;
+         .player-b{
+             width: 300px;
+            
              margin: 10px;
          }
-         .optional-box{
-             display: flex;
-         }
+        
